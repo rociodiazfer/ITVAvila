@@ -1,0 +1,14 @@
+/.idea/.gitignore
+/src/com/iesam/demo/domain/usecase/BuscarDemoUseCase.java
+/src/com/iesam/demo/domain/models/Demo.java
+/src/com/iesam/demo/data/DemoDataStore.java
+/src/com/iesam/demo/presentation/DemoMain.java
+/src/com/iesam/demo/domain/usecase/EliminarDemoUseCase.java
+/src/com/iesam/demo/domain/usecase/GuardarDemoUseCase.java
+/ITVAvila.iml
+/src/com/iesam/presentation/Main.java
+/.idea/misc.xml
+/src/com/iesam/demo/domain/usecase/ModificarDemoUseCase.java
+/.idea/modules.xml
+/src/com/iesam/data/vacio.txt
+/src/com/iesam/domain/vacio.txt
