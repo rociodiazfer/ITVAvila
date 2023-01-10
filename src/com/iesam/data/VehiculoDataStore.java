@@ -11,8 +11,7 @@ public class VehiculoDataStore {
 
     private Map<String, Vehiculo> dataStore = new TreeMap<>();
 
-    public void guardar(Vehiculo model) {
-        dataStore.put(model.getCodVehiculo(), model);
+    public void guardar(Vehiculo model) {dataStore.put(model.getCodigo(), model);
     }
 
     public void eliminar(String codigo) {
@@ -24,7 +23,7 @@ public class VehiculoDataStore {
     }
 
     public void modificar(Vehiculo model) {
-        dataStore.put(model.getCodVehiculo(), model);
+        dataStore.put(model.getCodigo(), model);
     }
 
     public static VehiculoDataStore getInstance() {
