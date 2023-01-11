@@ -3,7 +3,7 @@ package com.iesam.domain.models;
 public class Camion implements Vehiculo{
 
 
-    private String codCamion;
+    private String codigo;
     private String matricula;
     private String marca;
     private String modelo;
@@ -55,12 +55,13 @@ public class Camion implements Vehiculo{
     }
 
     public void setCodCamion(String codCamion) {
-        this.codCamion = codCamion;
+        this.codigo= codCamion;
     }
 
+
     @Override
-    public String getCodVehiculo() {
-        return codCamion;
+    public String getCodigo() {
+        return codigo;
     }
 
     @Override
@@ -73,13 +74,5 @@ public class Camion implements Vehiculo{
         return modelo;
     }
 
-    @Override
-    public String getColor() {
-        return color;
-    }
 
-    @Override
-    public String getAñoM() {
-        return añoM;
-    }
 }

@@ -4,7 +4,7 @@ import com.iesam.data.InspeccionDataStore;
 import com.iesam.domain.models.Inspeccion;
 
 
-public class AñadirInspeccion {
+public class AlmacenarInspeccionUseCase {
 
     private InspeccionDataStore dataStore = InspeccionDataStore.getInstance();
 

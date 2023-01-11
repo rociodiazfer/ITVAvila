@@ -2,18 +2,18 @@ package com.iesam.domain.models;
 
 public class Inspeccion {
 
-    private String codInspeccion;
+    public String codigo;
     private String fechaInspeccion;
     private boolean resultado;
     private Vehiculo vehiculo;
     private Propietario propietario;
 
-    public String getCodInspeccion(int i) {
-        return codInspeccion;
+    public String getCodigo (String codigo){
+        return codigo;
     }
 
-    public void setCodInspeccion(String codInspeccion) {
-        this.codInspeccion = codInspeccion;
+    public void setCodigo(String codigo) {
+        this.codigo= codigo;
     }
 
     public String getFechaInspeccion(String s) {
@@ -22,10 +22,6 @@ public class Inspeccion {
 
     public void setFechaInspeccion(String fechaInspeccion) {
         this.fechaInspeccion = fechaInspeccion;
-    }
-
-    public boolean isResultado() {
-        return resultado;
     }
 
     public void setResultado(boolean resultado) {
@@ -46,5 +42,13 @@ public class Inspeccion {
 
     public void setPropietario(Propietario propietario) {
         this.propietario = propietario;
+    }
+
+    public void setResultado(Boolean resultado){
+        this.resultado= resultado;
+    }
+
+    public boolean getResultado() {
+        return resultado;
     }
 }
