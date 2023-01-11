@@ -12,7 +12,7 @@ public class InspeccionDataStore {
     private Map<String, Inspeccion> dataStore = new TreeMap<>();
 
     public void guardar(Inspeccion model) {
-        dataStore.put(model.getCodInspeccion(1), model);
+        dataStore.put(model.codigo, model);
     }
 
     public void eliminar(String codigo) {
@@ -24,7 +24,7 @@ public class InspeccionDataStore {
     }
 
     public void modificar(Inspeccion model) {
-        dataStore.put(model.getCodInspeccion(1), model);
+        dataStore.put(model.codigo, model);
     }
 
     public static InspeccionDataStore getInstance() {
