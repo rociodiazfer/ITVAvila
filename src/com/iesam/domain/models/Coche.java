@@ -2,7 +2,7 @@ package com.iesam.domain.models;
 
 public class Coche implements Vehiculo{
 
-    private String codigo;
+    private String codCoche;
     private String matricula;
     private String marca;
     private String modelo;
@@ -12,7 +12,7 @@ public class Coche implements Vehiculo{
 
 
     public void setCodCoche(String codCoche) {
-        this.codigo = codCoche;
+        this.codCoche = codCoche;
     }
 
     public String getMatricula() {
@@ -48,8 +48,8 @@ public class Coche implements Vehiculo{
     }
 
     @Override
-    public String getCodigo() {
-        return codigo;
+    public String getCodVehiculo() {
+        return codCoche;
     }
 
     @Override
@@ -60,5 +60,15 @@ public class Coche implements Vehiculo{
     @Override
     public String getModelo() {
         return modelo;
+    }
+
+    @Override
+    public String getColor() {
+        return color;
+    }
+
+    @Override
+    public String getAñoM() {
+        return añoM;
     }
 }

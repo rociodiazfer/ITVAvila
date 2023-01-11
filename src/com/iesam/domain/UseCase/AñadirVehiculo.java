@@ -1,9 +1,11 @@
 package com.iesam.domain.UseCase;
 
+import com.iesam.data.InspeccionDataStore;
 import com.iesam.data.VehiculoDataStore;
+import com.iesam.domain.models.Inspeccion;
 import com.iesam.domain.models.Vehiculo;
 
-public class AlmacenarVehiculoUseCase {
+public class AñadirVehiculo {
 
     private VehiculoDataStore dataStore = VehiculoDataStore.getInstance();
 
